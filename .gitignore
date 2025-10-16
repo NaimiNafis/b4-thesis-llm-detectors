@@ -1,2 +1,8 @@
 # Ignore the dataset folder and all its contents
 /dataset/
+converted_dataset/
+*.log
+fine_tuned_model/
+result.txt
+remove_log.txt
+result_grid.txt

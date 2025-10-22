@@ -407,7 +407,6 @@ def create_rename_attack_dataset_libcst(input_file, output_file):
     print(f"Failed/left unchanged: {error_count} (see {debug_file})")
 
 if __name__ == '__main__':
-    # Define input and output file paths
     input_dataset_path = './script/python_test.jsonl'
     output_dataset_path = './script/dataset_A_rename.jsonl'
     # Run the main processing function

@@ -5,7 +5,7 @@ import textwrap
 from typing import Optional
 
 
-def preprocess_code(src: str, enable_lib2to3: bool = False) -> str:
+def preprocess_code(src: str, enable_lib2to3: bool = True) -> str:
     """Normalize whitespace, optionally apply lib2to3 refactor, and fix tokens.
 
     Keep this function small and testable.

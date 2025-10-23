@@ -1,5 +1,6 @@
 # Ignore the dataset folder and all its contents
 /dataset/
+modified_files/
 converted_dataset/
 *.log
 fine_tuned_model/
